@@ -1,0 +1,125 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+}
+#FormContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+
+  
+}
+form{
+    text-align: left;
+    width: 44%; 
+    margin: 10% 0 0 27%;
+}
+.MiddleLbl{
+margin: 12px 0 0 12px;
+position: absolute;
+font-size: 12px;
+opacity: 0.7;
+background-color: white;
+}
+.UpLbl{
+    margin: -5.5px 0 0 10px;
+    position: absolute;
+    font-size: 10px;
+    opacity: 0.7;background-color: white;
+}
+#UserType{
+    list-style-type: none;
+    width: 380px;
+    padding: 0;
+    position: absolute;
+    z-index: 100;
+    border-radius: 3px;
+   margin-top: -4px;
+   background-color: rgb(255, 255, 255);
+   transition: ease 0.4s;
+    border:1px solid rgb(212, 212, 212)
+}
+#UserType li{
+   color:rgb(131, 131, 131);
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 12px;
+    border-bottom:1px solid rgb(221, 221, 221)
+}
+#UserType li:hover{
+    background-color: rgb(216, 216, 216);
+}
+#AlreadyLbl{
+    color: rgb(26, 25, 25);
+    font-size: 12px; font-weight: 500;
+}
+#SigninLbl{
+    color: rgb(63, 130, 231);
+    font-size: 12px; 
+    font-weight: 700;
+}
+.Icons{
+    margin-left: -23px;
+    cursor: pointer;
+}.Icons2{
+    margin-left: -28px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.show{
+    display: inline-flex;
+
+}
+.hide{
+    display: none;
+}.red{
+    color: rgb(252, 15, 15);
+background-color: white;
+    font-weight: 600;
+}
+.white{
+    color: rgb(59, 59, 59);
+}
+.ErrorMsg{
+    color: rgb(252, 15, 15);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#PasswordLbl{
+    font-size: 8px; 
+    color: rgb(170, 170, 170);
+}
+.Fields{
+    outline: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 3px;
+    background-color: transparent;
+    border:1px solid rgb(221, 221, 221)
+}
+.redBorder{
+    border:1px solid rgb(231, 28, 28)
+}
+.whiteBorder {
+    border:1px solid rgb(221, 221, 221)
+}
+.Btn{
+background-color: rgb(223, 223, 223);
+    width: 95%;
+    border:hidden;
+    cursor: pointer;
+    color: rgb(87, 87, 87) !important;
+}
+.EnableBtn{
+    background-color: rgb(36, 97, 228);
+    width: 95%;
+    border:hidden;
+    cursor: pointer;
+    color: white !important;
+}
+#BellowLbl{
+    font-size: 11px; 
+    width: 40% !important;
+    color: rgb(141, 141, 141);
+}

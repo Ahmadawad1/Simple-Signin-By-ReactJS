@@ -1,0 +1,55 @@
+#MainDiv{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255,255,255,0);
+    display: inline-flex;
+}
+#RightDiv{
+    width: 35%;
+    background-color: rgb(55, 108, 187);  
+    text-align: center;
+    vertical-align: middle;
+    color:  white;
+    font-family: system-ui;
+}
+.Dots{
+    color: rgb(150, 150, 150);
+
+}
+#TextContainer{
+    width: 60%;
+    text-align: center;
+    margin: 62% 0 0 20%;
+}
+#TextContainer h2{
+    color:  white;
+}
+#TextContainer p{
+    text-align: left;
+}
+.Black{
+    color:black;
+}
+#LeftDiv{
+    width: 65%;
+  height: 100%;
+  background-color: rgb(253, 253, 253);
+
+}
+#Step{
+    text-align: right;
+    padding: 25px;
+
+}
+#StepContainer{
+    display: inline-flex;
+}
+#Step span{
+    font-size: 11px;
+    font-weight:600;
+    opacity: 0.8;
+    margin:2px  8px 0 0;
+    font-family:sans-serif;
+}
